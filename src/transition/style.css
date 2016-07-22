@@ -1,13 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body{
-  font-family: 'Helvetica';
-
-}
 
 .container{
   width:80%;
@@ -21,10 +12,11 @@ body{
   min-height: 100px;
   min-width: 100px;
   width: 100px;
-  transition: width 2s,background-color 10s , transform 5s ;
+  transition: width 2s,background-color 10s , transform 5s , opacity 15s ;
 }
 .box:hover{
   width:200px;
   background-color: red;
   transform: rotate(45deg);
+  opacity: 0.3;
 }
