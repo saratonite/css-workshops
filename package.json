@@ -7,12 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "lite-server",
     "transition": "lite-server transition",
-    "backdrop": "lite-server backdrop"
+    "backdrop": "lite-server backdrop",
+    "lesstest": "lite-server lesstest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "less": "^2.7.1",
     "lite-server": "^2.2.2"
   }
 }

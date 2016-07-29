@@ -12,6 +12,11 @@ install lite-server globally to run the project
  npm install lite-server -g
 ```
 
+Install dev-dependency
+```bash
+ npm install 
+```
+
 ## Run Examples :bicyclist:
 ```bash
 npm run <workshop-name>
