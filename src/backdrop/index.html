@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Backdrop</title>
+<style media="screen">
+  body{
+
+  }
+  /* Backdrop Element */
+  .backdrop{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background: #000;
+    opacity: .5;
+    z-index: 10;
+
+  }
+</style>
+  </head>
+  <body>
+    <h1>Backdrop</h1>
+    <button type="button" name="button" onclick="applyBackdrop()">Apply Backdrop</button>
+
+    <script type="text/javascript">
+
+    var body = document.body;
+    var backdropElement = document.createElement('div');
+
+    function applyBackdrop(){
+      backdropElement.classList.add('backdrop');
+      body.appendChild(backdropElement);
+      setTimeout(clearBackdrop,3000);
+
+    }
+
+    function clearBackdrop(){
+      body.removeChild(backdropElement);
+    }
+
+
+
+    </script>
+  </body>
+</html>

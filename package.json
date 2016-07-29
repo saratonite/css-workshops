@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "lite-server",
-    "transition": "lite-server transition"
+    "transition": "lite-server transition",
+    "backdrop": "lite-server backdrop"
   },
   "keywords": [],
   "author": "",
