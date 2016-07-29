@@ -2,6 +2,16 @@
 
 My CSS/CSS3/SASS/LESS Experiments/Examples :)
 
+## Installation
+Clone Repository
+```bash
+git clone https://github.com/saratonite/css-workshops.git
+```
+install lite-server globally to run the project
+```bash
+ npm install lite-server -g
+```
+
 ## Run Examples :bicyclist:
 ```bash
 npm run <workshop-name>
