@@ -9,7 +9,8 @@
     "transition": "lite-server transition",
     "backdrop": "lite-server backdrop",
     "lesstest": "lite-server lesstest",
-    "navbar": "lite-server navbar"
+    "navbar": "lite-server navbar",
+    "graph-bg":"lite-server graph-background"
   },
   "keywords": [],
   "author": "",

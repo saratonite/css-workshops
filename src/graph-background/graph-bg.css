@@ -1,0 +1,40 @@
+html,body{
+  height: 100%;
+}
+
+.main{
+  width: 50%;
+  margin:0 auto;
+  background: rgba(0, 0, 0, 0.15);
+  text-align: center;
+  height: 25%;
+  min-height: 200px;
+  top:25%;
+  left:25%;
+  color:white;
+  position:absolute;
+
+}
+.main h1{
+  margin:auto;
+  line-height:3em;
+  vertical-align:middle;
+  color:#ddd;
+  font-family: 'Parisienne', cursive;
+  font-size: 5em;
+}
+
+/* Core CSS */
+.bg-grid{
+  background-color: #269;
+  background-size: 25px 25px;
+}
+.bg-grid-white{
+
+  background-image: linear-gradient(to right, #ddd 1px, transparent 1px), linear-gradient(to bottom, #ddd 1px, transparent 1px);
+}
+
+.bg-grid-blue{
+
+  background-image: linear-gradient(to right, #4a74a8 1px, transparent 1px), linear-gradient(to bottom, #4a74a8 1px, transparent 1px);
+}
