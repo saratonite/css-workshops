@@ -19,16 +19,23 @@ main{
 }
 
 header{
-  background-color: #e5edfc;
+  background-color: #e74c3c;
   padding: 1em;
   font-family: 'Lato','Helvetica',sans-serif;
-  color: #f56;
+  color: rgba(245, 245, 245, 0.63);
 }
 header h1{
   font-weight: normal;
+  display: inline-block;
+}
+header nav ul{
+  display: inline-block;
+}
+header nav ul li{
+    display: inline-block;
 }
 nav{
-
+  float: right;
 }
 
 
