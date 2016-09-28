@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="mirror.css">
+  <title>Mirror</title>
+</head>
+<body>
+    <header>
+      <h1>Mirror View</h1>
+    </header>
+    <main>
+        <div id="surface" >
+
+          <div class="dot" style="top:120px;left:56px;">4</div>
+            <div class="dot">2 </div>
+
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque fugit sit dignissimos, at ex eum magnam similique reiciendis saepe. Sed reiciendis explicabo dolor voluptatibus doloribus quod, deleniti distinctio nihil expedita.
+
+        </div>
+
+        <div class="sub">
+          <button id="toggle-mirror">Toggle Mirror</button>
+        </div>
+
+    </main>
+
+  <script type="text/javascript">
+
+
+  document.addEventListener('DOMContentLoaded',()=>{
+
+    var toggleMirror = document.getElementById('toggle-mirror');
+    var surface = document.getElementById('surface');
+
+    toggleMirror.addEventListener('click',()=>{
+      surface.classList.toggle('mirror');
+    });
+
+  });
+  </script>
+</body>
+</html>

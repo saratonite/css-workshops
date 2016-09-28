@@ -10,7 +10,8 @@
     "backdrop": "lite-server backdrop",
     "lesstest": "lite-server lesstest",
     "navbar": "lite-server navbar",
-    "graph-bg":"lite-server graph-background"
+    "graph-bg":"lite-server graph-background",
+    "mirror-view":"lite-server mirror-view"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,25 @@
+/**/
+#surface{
+  height:35vh;
+  background-color: #2b61aa;
+  padding: 1em;
+}
+
+.dot{
+  width:25px;
+  height: 25px;
+  border-radius: 12px;
+  position: relative;
+  background-color: #f56;
+  text-align: center;
+  font-size: 12px;
+  line-height: 24px;
+}
+.sub{
+  text-align: center;
+  margin:2em;
+}
+
+.mirror {
+  transform: scaleX(-1);
+}

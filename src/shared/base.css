@@ -3,7 +3,42 @@
   padding: 0;
   box-sizing: border-box;
 }
+body,html{
+  height: 100%;
+  width: 100%;
+  position: absolute;
 
+}
 body{
-  font-family: 'Helvetica';
+  font-family: 'Lato','Helvetica',sans-serif;
+  position: absolute;
+}
+
+main{
+
+}
+
+header{
+  background-color: #e5edfc;
+  padding: 1em;
+  font-family: 'Lato','Helvetica',sans-serif;
+  color: #f56;
+}
+header h1{
+  font-weight: normal;
+}
+nav{
+
+}
+
+
+button{
+  padding: 10px;
+  border: none;
+  box-shadow: 0px 4px #ccc;
+  outline: none;
+  border:2px solid #dfdfdf;
+}
+button:active{
+  box-shadow: 4px 2px #ccc;
 }
