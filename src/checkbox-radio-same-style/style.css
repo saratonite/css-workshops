@@ -1,0 +1,48 @@
+/* Reference https://codepen.io/mahish/pen/mJzrBa*/
+label.same-check-radio-label {
+ display: block;
+}
+label.same-check-radio-label:last-of-type {
+
+}
+label.same-check-radio-label input.same-check-radio {
+ -webkit-appearance: none;
+ -moz-appearance: none;
+ -ms-appearance: none;
+ -o-appearance: none;
+ appearance: none;
+ position: relative;
+ height: 18px;
+ width: 18px;
+ border-radius: 50%;
+ border: 1px solid #d7d7d7;
+ -webkit-transition: all 0.15s ease-out 0s;
+ transition: all 0.15s ease-out 0s;
+ cursor: pointer;
+ display: inline-block;
+ outline: none;
+ position: relative;
+ border-color: #6f91c8;;
+ z-index: 1000;
+}
+label.same-check-radio-label input.same-check-radio:checked {
+ background-color: #6f91c8;;
+ border: 1px solid #6f91c8;
+}
+label.same-check-radio-label input.same-check-radio:checked::before {
+ position: absolute;
+ height: 12px;
+ width: 12px;
+ border-radius: 50%;
+ content: '';
+ display: block;
+ background: transparent;
+ border: 2px solid white;
+}
+
+label.same-check-radio-label input.same-check-radio,
+label.same-check-radio-label input.same-check-radio:checked,
+label.same-check-radio-label input.same-check-radio  {
+ float: right;
+ clear: both;
+}

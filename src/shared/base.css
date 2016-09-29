@@ -17,7 +17,13 @@ body{
 main{
 
 }
+center{
+  background-color: #eef2f9;
+  width:90vw;
+  margin: 5px auto;
+  padding: 2em;
 
+}
 header{
   background-color: #e74c3c;
   padding: 1em;
