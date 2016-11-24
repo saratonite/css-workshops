@@ -1,0 +1,36 @@
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+
+/**/
+
+.container {
+	display: flex;
+	background-color: orange;
+	height: 150px;
+}
+
+.row {
+	flex-direction: row;
+	width: 100px;
+	background-color: aqua;
+	height: 50px;
+	text-align: center;
+
+}
+.row.red {
+	background-color: red;
+}
+.color-1 {
+	background-color: #3f59b6;
+}
+.color-green{
+	background-color: #61c721;
+}
+.col{
+	flex-direction: column;
+	background-color: pink;
+}
