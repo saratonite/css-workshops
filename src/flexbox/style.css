@@ -5,32 +5,29 @@
 }
 
 
-/**/
-
-.container {
-	display: flex;
-	background-color: orange;
-	height: 150px;
+.c1{
+	background-color: #3F51B5;
+}
+.c2{
+	background-color: #673AB7;
+}
+.c3 {
+	background-color: #9C27B0;
+}
+.c4 {
+	background-color: #E91E63;
+}
+.c5 {
+	background-color: #f44336;
 }
 
-.row {
-	flex-direction: row;
-	width: 100px;
-	background-color: aqua;
-	height: 50px;
-	text-align: center;
+.c6 {
+	background-color: #FDD835;
+}
 
+.c7{
+	background-color: #43A047;
 }
-.row.red {
-	background-color: red;
-}
-.color-1 {
-	background-color: #3f59b6;
-}
-.color-green{
-	background-color: #61c721;
-}
-.col{
-	flex-direction: column;
-	background-color: pink;
+.c8{
+	background-color: #00897B;
 }
