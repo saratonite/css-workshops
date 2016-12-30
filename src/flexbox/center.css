@@ -1,0 +1,11 @@
+.container {
+	display: flex;
+	background-color: #f56;
+	height: 100vh;
+	justify-content:center;
+	align-items: center;
+}
+.title {
+	background-color: #eee;
+	padding: 1em;
+}
