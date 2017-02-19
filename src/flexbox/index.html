@@ -10,6 +10,31 @@
 		font-family: monospace;
 
 	}
+	/* Navigation */
+	.flex-nav ul {
+		padding: 0;
+		margin: 0;
+		display: flex;
+		list-style: none;
+		border: 1px solid #113bad;
+		background: #f56;
+	}
+	.flex-nav li {
+		padding: 20px;
+		background: #456;
+		flex-basis: 200px;
+		text-align: center;
+	}
+	.flex-nav li:hover{
+		background: #466;
+	}
+	.flex-nav li a{
+
+		color: #eee;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	/* Boxes */
 	.f-container {
 		display: flex;
 		background-color: #f56;
@@ -34,6 +59,13 @@
 
 </head>
 <body>
+	<nav class="flex-nav">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
 	<div class="f-container">
 
 		<div class="f-item c2">
