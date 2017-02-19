@@ -20,27 +20,51 @@
 		background: #f56;
 	}
 	.flex-nav li {
-		padding: 20px;
 		background: #456;
-		flex-basis: 200px;
 		text-align: center;
+		display: flex;
+		border-bottom: 3px solid #bbb;
+		flex-basis: 200px;
+		flex-grow: 1;
+		flex-shrink: 1;
 	}
 	.flex-nav li:hover{
 		background: #466;
+		border-bottom-color: #125432;
 	}
 	.flex-nav li a{
-
 		color: #eee;
 		text-decoration: none;
 		font-weight: bold;
+		padding: 1.7em;
+		display: block;
+		flex-grow: 1;
 	}
+
+@media  (max-width:500px) {
+
+	body{
+		background: blue;
+	}
+
+		.flex-nav ul {
+			flex-direction: column;;
+		}
+
+		.flex-nav li {
+			flex-basis: auto;s
+			flex-shrink: 1;
+			border-bottom: none;
+		}
+
+}
+
 	/* Boxes */
 	.f-container {
 		display: flex;
 		background-color: #f56;
 		flex-direction: row;;
 		align-items: center;
-		fle
 	}
 
 	.f-item {
@@ -53,6 +77,10 @@
 		align-items: center;
 		flex-grow: 1;
 	}
+	.f-item:hover{
+		opacity: .6;
+	}
+
 
 
 	</style>
