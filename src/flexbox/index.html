@@ -58,13 +58,23 @@
 		}
 
 }
+	
+
+	.app-container{
+
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+
+
+	}
 
 	/* Boxes */
 	.f-container {
 		display: flex;
-		background-color: #f56;
 		flex-direction: row;;
 		align-items: center;
+		flex-grow: 1;
 	}
 
 	.f-item {
@@ -81,12 +91,21 @@
 		opacity: .6;
 	}
 
+	/* Footer */
+
+	footer{
+
+		background-color: #666;
+		padding: 10px;
+		color: #efefef;
+	}
+
 
 
 	</style>
 
 </head>
-<body>
+<body class="app-container">
 	<nav class="flex-nav">
 		<ul>
 			<li><a href="#">Home</a></li>
@@ -118,6 +137,9 @@
 
 
 	</div>
+	<footer>
+		footer
+	</footer>
 
 </body>
 </html>
