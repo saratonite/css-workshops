@@ -75,12 +75,18 @@
 
 	}
 
+
 	/* Boxes */
 	.f-container {
 		display: flex;
 		flex-direction: row;;
 		/*flex-wrap:wrap;*/
 		flex-grow: 1;
+	}
+
+	.wrapped{
+		flex-wrap:wrap;
+
 	}
 
 	.f-item {
@@ -115,7 +121,7 @@
 	<nav class="flex-nav">
 		<ul>
 			<li><a href="#">Home</a></li>
-			<li><a href="#">Blog</a></li>
+			<li><a href="#" id="nav-2">Toggle View</a></li>
 			<li><a href="#">Contact</a></li>
 		</ul>
 	</nav>
@@ -144,8 +150,20 @@
 
 	</div>
 	<footer>
-		footer
+		&copy; Sarath [The Kind]
 	</footer>
+
+	<script type="text/javascript">
+
+			var container = document.querySelector('.f-container');
+
+			var btn2 = document.querySelector('#nav-2');
+
+			btn2.addEventListener('click',function(){
+				container.classList.toggle("wrapped");
+			})
+
+	</script>
 
 </body>
 </html>
