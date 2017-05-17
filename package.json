@@ -13,7 +13,8 @@
     "graph-bg":"lite-server graph-background",
     "mirror-view":"lite-server mirror-view",
     "same-radio-check":"lite-server checkbox-radio-same-style",
-    "flexbox":"lite-server flexbox"
+    "flexbox":"lite-server flexbox",
+    "gradient":"lite-server gradient"
   },
   "keywords": [],
   "author": "",
