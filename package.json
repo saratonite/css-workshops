@@ -14,7 +14,8 @@
     "mirror-view":"lite-server mirror-view",
     "same-radio-check":"lite-server checkbox-radio-same-style",
     "flexbox":"lite-server flexbox",
-    "gradient":"lite-server gradient"
+    "gradient":"lite-server gradient",
+    "keyframes":"lite-server keyframes"
   },
   "keywords": [],
   "author": "",
