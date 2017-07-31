@@ -15,7 +15,8 @@
     "same-radio-check":"lite-server checkbox-radio-same-style",
     "flexbox":"lite-server flexbox",
     "gradient":"lite-server gradient",
-    "keyframes":"lite-server keyframes"
+    "keyframes":"lite-server keyframes",
+    "display-table":"lite-server display-table"
   },
   "keywords": [],
   "author": "",

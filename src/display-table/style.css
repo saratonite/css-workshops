@@ -1,0 +1,21 @@
+.wrapper {
+    width: 80%;
+    margin:10px auto;
+    min-height: 300px;
+    background-color:#eed799;
+}
+
+.table {
+    display: table;
+    width: 100%;
+}
+.tr {
+    display: table-row;
+    width: 100%;
+    background: #f56;
+}
+
+.td {
+    display: table-cell;
+    padding: 5px;
+}
