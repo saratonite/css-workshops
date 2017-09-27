@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Loading Spin</title>
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    <div id="loader"></div>
+    <div class="content" style="display:none">
+         <h2>LOADED</h2>
+
+         <div>
+             <input type="text" id="search">
+         </div>
+         <p>
+             Almost before we knew it, we had left the ground.
+         </p>
+        <div>
+            <button id="loadBtn">LOAD AGAIN?</button>
+        </div>
+    </div>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded',function(){
+
+        var loader = document.getElementById('loader')
+
+        var content = document.querySelector('.content')
+
+        var loadBtn = document.getElementById('loadBtn')
+
+        stopLoding();
+       // Add load button 
+
+       loadBtn.addEventListener('click',function(){
+
+           showLoader();
+           stopLoding();
+
+       })
+
+       function showLoader() {
+            loader.style.display = 'block';
+           content.style.display = 'none';
+       }
+
+       function stopLoding() {
+           setTimeout(function() {
+           loader.style.display = 'none';
+           content.style.display = 'flex';
+       },4000)
+       }
+
+    })
+</script>
+</body>
+
+</html>
