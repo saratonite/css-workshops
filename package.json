@@ -16,7 +16,8 @@
     "flexbox":"lite-server flexbox",
     "gradient":"lite-server gradient",
     "keyframes":"lite-server keyframes",
-    "display-table":"lite-server display-table"
+    "display-table":"lite-server display-table",
+    "css-loading-spin":"lite-server css-loading-spin"
   },
   "keywords": [],
   "author": "",
