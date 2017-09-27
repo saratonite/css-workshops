@@ -1,0 +1,37 @@
+html,body{
+  margin: 0;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Skew div */
+.skewed{
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to right, #E91E63 0%, #673AB7 100%);
+}
+.skewed:after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    bottom: 0;
+    transform-origin: right bottom;
+    transform: skewY(-10deg);
+}
+
+/*The content div */
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

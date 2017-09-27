@@ -17,7 +17,8 @@
     "gradient":"lite-server gradient",
     "keyframes":"lite-server keyframes",
     "display-table":"lite-server display-table",
-    "css-loading-spin":"lite-server css-loading-spin"
+    "css-loading-spin":"lite-server css-loading-spin",
+    "skewed-edges":"lite-server skewed-edges"
   },
   "keywords": [],
   "author": "",
