@@ -20,16 +20,15 @@ html,body{
 
     
 .box {
-    flex-basis:18%;
-    max-width: 18%;
+    max-width: 300px;
+    width: 20%;
+    min-height: 200px;
     flex-grow: 1;
     background-color: #ECEFF1;
     margin:5px;
-    height: 20rem;
     text-align: center;
     border-radius: 2px;
     color: #dedede;
-   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +37,7 @@ html,body{
 
 .box h1 {
      font-size: 3em;
-     transition: font-size .3s ease-in;
+     transition: font-size .2s ease-in-out;
      
 }
 
@@ -58,8 +57,32 @@ html,body{
 }
 
 .g3 {
+    background: linear-gradient(to bottom right, blue, pink);
+}
+
+.g4 {
     background-image: linear-gradient( 135deg, #EEAD92 10%, #6018DC 100%);
 }
-.g4 {
+.g5 {
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+.g6{
+    background: repeating-linear-gradient(red, yellow 10%, green 20%);
+  }
+.g7 {
+    background:
+        linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+        linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+        linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+.g8 {
     background-image: radial-gradient(#42A5F5,#5C6BC0)
+}
+
+.g9 {
+    background: radial-gradient(blue 10px, yellow 30%, #1e90ff 50%);
+}
+.g10 {
+    background: radial-gradient(ellipse closest-side,
+    red, yellow 10%, #1e90ff 50%, beige);
 }
