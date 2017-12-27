@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    /* background-image: linear-gradient(#121212, #000) */
+    background: #673AB7;
+}
+
+h1 {
+    font-family: 'Bungee', cursive;
+    font-size: 72px;
+    background: -webkit-linear-gradient(45deg, #f56 10%, #92d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    transform: rotate(-20deg);
+}

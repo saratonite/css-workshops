@@ -19,7 +19,8 @@
     "display-table":"lite-server display-table",
     "css-loading-spin":"lite-server css-loading-spin",
     "skewed-edges":"lite-server skewed-edges",
-    "custom-scroll-bar": "lite-server custom-scroll-bar"
+    "custom-scroll-bar": "lite-server custom-scroll-bar",
+    "text-gradient": "lite-server text-gradient"
   },
   "keywords": [],
   "author": "",
