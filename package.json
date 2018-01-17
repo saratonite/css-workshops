@@ -20,7 +20,8 @@
     "css-loading-spin":"lite-server css-loading-spin",
     "skewed-edges":"lite-server skewed-edges",
     "custom-scroll-bar": "lite-server custom-scroll-bar",
-    "text-gradient": "lite-server text-gradient"
+    "text-gradient": "lite-server text-gradient",
+    "transform": "lite-server transform"
   },
   "keywords": [],
   "author": "",
