@@ -1,0 +1,54 @@
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  } 
+/* The Old Style Grid */
+
+.grid {
+    width: auto;
+}
+
+.grid::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.grid-pad {
+    padding: 20px 0 20px 20px;
+}
+
+[class*='col-'] {
+    float: left;
+}
+
+[class*='col-'] {
+    padding-right: 20px;
+}
+[class*='col-']:last-of-type {
+    padding-right: 0;
+}
+
+.grid-pad > [class*='col-']:last-of-type {
+    padding-right: 20px;
+}
+
+
+.col-2-3 {
+    width: 66.66%;
+}
+
+.col-1-3 {
+    width: 33.33%;
+}
+.col-1-2 {
+    width: 50%;
+}
+.col-1-4 {
+    width: 25%;
+}
+.col-1-8 {
+    width: 12.5%;
+}

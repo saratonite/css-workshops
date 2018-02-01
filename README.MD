@@ -27,9 +27,16 @@ npm run <workshop-name>
 + backdrop
 + transition
 
+## TODOS :baby_chick: 
+
++ [ ] Old Style Grids
++ [ ] Flexbox Grid
++ [ ] CSS Grids
 
 
 [w3c how to](https://www.w3schools.com/howto/default.asp)
+
+
 
 
 #### By :snowboarder: Sarath with :heart:

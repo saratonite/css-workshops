@@ -21,7 +21,8 @@
     "skewed-edges":"lite-server skewed-edges",
     "custom-scroll-bar": "lite-server custom-scroll-bar",
     "text-gradient": "lite-server text-gradient",
-    "transform": "lite-server transform"
+    "transform": "lite-server transform",
+    "old-style-grid": "lite-server old-style-grid"
   },
   "keywords": [],
   "author": "",
